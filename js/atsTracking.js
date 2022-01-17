@@ -1,5 +1,14 @@
 /* tracking of Page begin
+ga('send', 'pageview', {
+index.html : “Home”
+destinations.html : “All travels list”
+details.html : “Travel page”
+login.html : “User connection”
+basket.html : “Checkout”
+checkout.html : “Checkout”
+thankyou.html : “Confirmation”
 
+});
 	
 <!-- Google Analytics -->
 <script>
