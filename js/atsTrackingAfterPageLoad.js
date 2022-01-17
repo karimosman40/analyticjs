@@ -116,7 +116,12 @@ $(function(){
 		$("#viewDestination a").on('click',function(e){
 			/* tracking of View Destinations button click begin
 			*/
-
+                    ga('send', {
+                   hitType: 'event',
+                   eventCategory: 'home',
+                  eventAction: 'click',
+                  eventLabel: 'view destinations'
+                        });
 			// tracking of View Destinations button click end
 		});
 		
