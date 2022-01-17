@@ -507,6 +507,10 @@ $(function(){
 
 				/* tracking of virtual page view on payment page begin
 				*/
+				ga('send', {
+                                   hitType: 'pageview',
+                                    page: '/payment.html'
+                                    });
 
 				// tracking of virtual page view on payment page end
 				history.pushState({}, 'Payment | ATS Travel Website', 'payment.html');
